@@ -23,6 +23,6 @@ The model default hyper-parameters are set as follows but you can easily changed
 ### How to use the code
 Here is the view only [link](https://colab.research.google.com/drive/14V9vKUeBKfJow_PdlzdQrltsm5DxTwKz) to the colab notebook. Also, by clicking on the ".ipynb" file up there you can see the code and a runtime of it which I ran before.
 
-First you need to make an instance of model class. Then you can set the train, validation, and test data. You can set the input and output shapes using the set_input_layer and set_output_layer methods respectively. After that, you can add any amount of layers with arbitrary neurons using add_layer methods. Finally, you can train the model using train method and giving the hyper-parameter accordingly. 
+First you need to make an instance of model class. Then you can set the train, validation, and test data. You can set the input and output shapes using the set_input_layer and set_output_layer methods respectively. After that, you can add any amount of layers with arbitrary number neurons and activation function using add_layer methods. Finally, you can train the model using train method and giving the hyper-parameter accordingly. 
 
-If you wish to change the activation function for a layer, first you need to implement the function and its derivative and then you can add it in the layer class.
+###### Note: If you wish to change the activation function for a layer, first you need to implement the function and its derivative and then you can add it in the layer class.
